@@ -1,0 +1,25 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Jerry Kaufman'
+theme = 'yassi'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[params]
+  CoverImage = "/images/portrait.png"
+  CoverImageWidth = 150
+  accentColor = "#6a3794"  
+  accentColorDark = "#6a3794" 
+
+  useProjectCarousel = true
+  
+  # Social Media Links
+  [params.social]
+    github = "https://github.com/CandyFreak2"
+    linkedin = "https://www.linkedin.com/in/jerry-kaufman/"
+
+  [taxonomies]
+  tag = "tags"
+  category = "categories"
