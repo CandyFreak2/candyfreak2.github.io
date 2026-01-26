@@ -19,7 +19,34 @@ theme = 'yassi'
   [params.social]
     github = "https://github.com/CandyFreak2"
     linkedin = "https://www.linkedin.com/in/jerry-kaufman/"
+    mail = "mailto:jerry@kaufmanma.org"
 
-  [taxonomies]
+[taxonomies]
   tag = "tags"
   category = "categories"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Acomplishments"
+    url = "/acomplishments/"
+    weight = 5

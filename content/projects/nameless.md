@@ -1,7 +1,7 @@
 +++
 title = "Nameless Heroes"
 date = 2025-07-10
-summary = "WIP"
+summary = "Nameless Heroes is an addon for the Fisk Superhero Mod. As the lead programmer and designer, I was in charge of designing and creating functionality for all the suits as well as create systems and tools to improve hurdels during development and streamline art implementation."
 featured = true
 tags = ["tools", "systems", "optimization", "heropack"]
 categories = ["JavaScript", "DSL", "API", "Minecraft"]

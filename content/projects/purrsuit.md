@@ -1,7 +1,7 @@
 +++
 title = "Purrsuit"
 date = 2025-11-19
-summary = "WIP"
+summary = "Purrsuit is a 3D, competitive multiplayer game set in a secret stadium. As the lead programmer, I was responsible for the core map functionality, weapon system, system architecture and design-focused tools to enhance player experience."
 featured = true
 tags = ["tools", "systems"]
 categories = ["Unreal", "Blueprints", "C++"]
