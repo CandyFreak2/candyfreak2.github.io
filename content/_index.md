@@ -1,1 +1,1 @@
-Systems and Tools Game Programmer
+Hi! I'm Jerry, a Systems and Tools Programmer. Some of my favorite games are Firewatch, Minecraft and the Horizon series.

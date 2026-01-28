@@ -13,13 +13,14 @@ theme = 'yassi'
   accentColor = "#6a3794"  
   accentColorDark = "#6a3794" 
 
-  useProjectCarousel = true
+  useProjectCarousel = false
   
   # Social Media Links
   [params.social]
     github = "https://github.com/CandyFreak2"
     linkedin = "https://www.linkedin.com/in/jerry-kaufman/"
     mail = "mailto:jerry@kaufmanma.org"
+    itchio = "https://candyfreak2.itch.io/"
 
 [taxonomies]
   tag = "tags"
