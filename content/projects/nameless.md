@@ -8,8 +8,20 @@ categories = ["JavaScript", "DSL", "API", "Minecraft"]
 main_image = "/images/projects/nameless.png"
 +++
 
+{{% text_center %}}
+## [Download Here!!](https://www.curseforge.com/minecraft/customization/nameless-heroes)
 ![CurseForge Downloads](https://img.shields.io/curseforge/dt/634206?style=for-the-badge&labelColor=5B5657&color=FF6F3D)
+{{% /text_center %}}  
 
-[Project URL](https://www.curseforge.com/minecraft/customization/nameless-heroes)
+Platform: PC  
+Role: Product Owner & Lead Programmer  
+Game: Minecraft - 1.7.10  
+Team Size: 4  
 
-## Features
+## Contributions  
+
+- Managed repo as Repository Manager
+- Lead development cycles for updates
+- Developed systems to streamline processes across characters with similar abilities
+- Created custom animations with custom animation pipeline from the mod
+- Created pipeline and framework for systems and visuals to improve optimization

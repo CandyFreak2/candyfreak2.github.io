@@ -3,4 +3,5 @@ title: "Acomplishments"
 layout: "about"
 ---
 
-# Page In Development!
+- Participated in Ubisoft's 2025 Game Lab Competition (BurnTown)  
+- HVAC Patent is currently under approval process 

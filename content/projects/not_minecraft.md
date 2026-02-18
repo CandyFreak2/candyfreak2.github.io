@@ -8,4 +8,19 @@ categories = ["Minecraft", "AI", "Procedural Generation"]
 main_image = "/images/projects/not_minecraft.png"
 +++
 
-## Features
+{{% text_center %}}
+## [Repo](https://github.com/gkaufman2026/NotMinecraft)
+{{% /text_center %}}  
+
+Platform: PC  
+Role: AI & Tools Programmer   
+Game Engine: Unity  
+Team Size: 8 weeks  
+
+## Contributions  
+
+- Created customizable voxel-based procedural generation utilizing a layer system & custom noise tools
+  - Texture Mapping per Block
+  - Chunk Generation 
+  - Octave Perlin Noise
+  - Domain Warping

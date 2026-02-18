@@ -10,3 +10,24 @@ main_image = "/images/projects/burntown.png"
   featured = true  # Show in featured section on homepage
   showInPostList = true  # Show in timeline lists alongside blog posts
 +++
+
+{{% text_center %}}
+## [Download Here!!](https://eenahh.itch.io/burntown?secret=hXAQ8EnAmmhVzUUY21liSbEzXU)
+{{% /text_center %}}  
+
+Platform: PC  
+Role: Lead Programmer (Networking & Tools)  
+Game Engine: Unity  
+Team Size: 8  
+Designed Input Scheme: Controller  
+Development Time: 10 Weeks  
+
+## Contributions  
+
+- Created framework for network architecture
+  - Hosting: Player Count, Levels, Code Randomization
+  - Joining: Custom Keyboard Supported by Controller
+- Game State Framework
+  - Singleton Based for UI, Player Triggered Events for Server and More
+- Networked Mechanics
+  - Gasline: Designer friendly system that allows a fire to trigger a chain reaction and spread to objects in area

@@ -878,6 +878,55 @@ h2 {
   border-color: #fa5c5c;
 }
 
+/* Resume Button */
+.resume_button {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 50px;
+  border: 2px solid #6a3794;
+  padding: 14px 40px 13px;
+  overflow: hidden;
+  position: relative;
+}
+
+.resume_button:hover {
+  color: #fff;
+}
+
+.left {
+    float: left;
+}
+
+.text-center {
+  text-align: center;
+  display: block;
+}
+
+.button a::before {
+  position: absolute;
+  content: "";
+  z-index: 0;
+  background-color: #6a3794;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  height: 111%;
+  transition: all .3s ease;
+}
+
+.button a:hover::before {
+  height: 11%;
+}
+
+.button span {
+  position: relative;
+  z-index: 2;
+  transition: all .3s ease;
+}
+
 .summary {
   font-size: 18px;
   line-height: 1.5;

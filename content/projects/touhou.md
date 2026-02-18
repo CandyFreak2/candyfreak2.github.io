@@ -8,4 +8,18 @@ categories = ["C#", "Networking", "Unity"]
 main_image = "/images/projects/touhou.png"
 +++
 
-## Features
+{{% text_center %}}
+## [Download Here!!](https://tristansa.itch.io/touhou99)
+{{% /text_center %}}  
+
+Platform: PC  
+Role: Gameplay, UI/UX, Networking Programmer  
+Game Engine: Unity  
+Team Size: 12 weeks  
+
+## Contributions  
+
+- Developed the player actions, movement, shooting, bomb mechanics
+  - When player reaches a power level of 4, shooting will lock onto the closest enemy using [Vector Curl](https://en.wikipedia.org/wiki/Curl_(mathematics))
+- Using Steam Networking Sockets, networked the bomb mechanics that get placed on the opposing players clients
+- Created UI tools to create settings options
