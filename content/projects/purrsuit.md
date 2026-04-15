@@ -9,7 +9,7 @@ main_image = "/images/projects/purrsuit.png"
 +++
 {{% text_center %}}
 
-## [Repo](https://github.com/Option-10-Capstone/Purrsuit) | [Itch.io](https://pibu.itch.io/purrsuit)
+## [GitHub](https://github.com/Option-10-Capstone/Purrsuit) | [Itch.io](https://pibu.itch.io/purrsuit)
 {{% /text_center %}}  
 
 Platform: PC  

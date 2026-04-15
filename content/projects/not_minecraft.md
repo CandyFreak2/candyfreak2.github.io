@@ -9,7 +9,7 @@ main_image = "/images/projects/not_minecraft.png"
 +++
 
 {{% text_center %}}
-## [Repo](https://github.com/gkaufman2026/NotMinecraft)
+## [Github](https://github.com/gkaufman2026/NotMinecraft)
 {{% /text_center %}}  
 
 Platform: PC  

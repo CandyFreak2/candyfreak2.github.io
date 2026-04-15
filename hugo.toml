@@ -48,11 +48,6 @@ theme = 'yassi'
     url = "/posts/"
     weight = 4
 
-  [[menu.main]]
-    name = "Acomplishments"
-    url = "/acomplishments/"
-    weight = 5
-
 ignoreLogs = ['warning-goldmark-raw-html']
 [markup.goldmark.renderer]
 unsafe = true
