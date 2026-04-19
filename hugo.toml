@@ -11,8 +11,8 @@ theme = 'yassi'
 [params]
   CoverImage = "/images/portrait.png"
   CoverImageWidth = 150
-  accentColor = "#6a3794"  
-  accentColorDark = "#6a3794"
+  accentColor = "#721655"  
+  accentColorDark = "#941D6E"
 
   useProjectCarousel = false
   

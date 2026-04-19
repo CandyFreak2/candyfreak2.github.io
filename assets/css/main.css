@@ -14,17 +14,18 @@
   --code-text: #e83e8c;
   --shadow-sm: rgba(0, 0, 0, 0.1);
   --shadow-md: rgba(0, 0, 0, 0.15);
-  --card-bg: #ffffff;
+  --card-bg-g1: #ffffff;
+  --card-bg-g2: #ffffff;
 }
 
 [data-theme="dark"] {
-  --bg-primary: #1a1a1a;
+  --bg-primary: #250F1F;
   --bg-secondary: #242424;
   --bg-tertiary: #2a2a2a;
   --text-primary: #e8e8e8;
   --text-secondary: #d1d1d1;
-  --text-tertiary: #b0b0b0;
-  --text-quaternary: #cccccc;
+  --text-tertiary: #d1cfcf;
+  --text-quaternary: #e2e0e0;
   --border-color: #3a3a3a;
   --border-light: #333;
   --link-color: #5fc9f0;
@@ -33,7 +34,8 @@
   --code-text: #ff79c6;
   --shadow-sm: rgba(0, 0, 0, 0.3);
   --shadow-md: rgba(0, 0, 0, 0.5);
-  --card-bg: #242424;
+  --card-bg-g1: #c8529e;
+  --card-bg-g2: #6a3794;
 }
 
 html {
@@ -886,7 +888,7 @@ h2 {
   font-family: sans-serif;
   font-weight: 600;
   border-radius: 50px;
-  border: 2px solid #6a3794;
+  border: 2px solid #941D6E;
   padding: 14px 40px 13px;
   overflow: hidden;
   position: relative;
@@ -909,7 +911,7 @@ figure.floatleft {
   position: absolute;
   content: "";
   z-index: 0;
-  background-color: #6a3794;
+  background-color: #941D6E;
   left: -5px;
   right: -5px;
   bottom: -5px;
@@ -1132,7 +1134,7 @@ figure.floatleft {
   overflow: hidden;
   border-radius: 8px;
   transition: transform 0.2s ease;
-  background: var(--card-bg);
+  background: linear-gradient(to bottom right, var(--card-bg-g1), var(--card-bg-g2));
   box-shadow: 0 2px 8px var(--shadow-sm);
 }
 
@@ -1181,7 +1183,7 @@ figure.floatleft {
   color: var(--text-quaternary);
   line-height: 1.5;
   margin: 0;
-  background: var(--card-bg);
+  background: linear-gradient(to bottom right, var(--card-bg-g1), var(--card-bg-g2));
 }
 
 .featured-card a {
