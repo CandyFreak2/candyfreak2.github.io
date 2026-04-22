@@ -9,7 +9,7 @@ main_image = "/images/projects/touhou.png"
 +++
 
 {{% text_center %}}
-## [Download Here!!](https://tristansa.itch.io/touhou99)
+## [Itch.io](https://tristansa.itch.io/touhou99)
 {{% /text_center %}}  
 
 Platform: PC  

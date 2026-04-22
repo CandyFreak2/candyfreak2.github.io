@@ -9,7 +9,7 @@ main_image = "/images/projects/nameless.png"
 +++
 
 {{% text_center %}}
-## [Download Here!!](https://www.curseforge.com/minecraft/customization/nameless-heroes)
+## [CurseForge Download](https://www.curseforge.com/minecraft/customization/nameless-heroes)
 ![CurseForge Downloads](https://img.shields.io/curseforge/dt/634206?style=for-the-badge&labelColor=5B5657&color=FF6F3D)
 {{% /text_center %}}  
 

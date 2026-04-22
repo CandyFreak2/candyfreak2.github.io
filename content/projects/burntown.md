@@ -12,7 +12,7 @@ main_image = "/images/projects/burntown.png"
 +++
 
 {{% text_center %}}
-## [Download Here!!](https://eenahh.itch.io/burntown?secret=hXAQ8EnAmmhVzUUY21liSbEzXU)
+## [Itch.io](https://eenahh.itch.io/burntown?secret=hXAQ8EnAmmhVzUUY21liSbEzXU)
 {{% /text_center %}}  
 
 Platform: PC  

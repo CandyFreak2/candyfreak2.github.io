@@ -24,3 +24,5 @@ Team Size: 8 weeks
   - Chunk Generation 
   - Octave Perlin Noise
   - Domain Warping
+
+If you're interested in learning more about this project, see the [blog post]({{< relref "posts/not_minecraft.md" >}}) 
