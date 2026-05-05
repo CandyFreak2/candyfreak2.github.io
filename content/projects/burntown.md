@@ -11,18 +11,30 @@ main_image = "/images/projects/burntown.png"
   showInPostList = true  # Show in timeline lists alongside blog posts
 +++
 
-{{% text_center %}}
-## [Itch.io](https://eenahh.itch.io/burntown?secret=hXAQ8EnAmmhVzUUY21liSbEzXU)
-{{% /text_center %}}  
+<br>
+<br>
+<br>
 
-Platform: PC  
-Role: Lead Programmer (Networking & Tools)  
-Game Engine: Unity  
-Team Size: 8  
-Designed Input Scheme: Controller  
-Development Time: 10 Weeks  
+{{% info title="[Itch.io](https://eenahh.itch.io/burntown?secret=hXAQ8EnAmmhVzUUY21liSbEzXU)" %}}
+<div class="info_right">
+  <div class="item">Platform(s)</div>
+  <div class="item">Role</div>
+  <div class="item">Game Engine</div>
+  <div class="item">Team Size</div>
+  <div class="item">Supported Input(s)</div>
+  <div class="item">Development Time</div>
+</div>
+<div class="info_left">
+  <div class="item">Windows (PC)</div>
+  <div class="item">Lead Programmer (Networking & Tools)</div>
+  <div class="item">Unity</div>
+  <div class="item">8</div>
+  <div class="item">Xbox & Playstation Controller</div>
+  <div class="item">10 weeks</div>
+</div>
+{{% /info %}}
 
-## Contributions  
+## Contributions
 
 - Created framework for network architecture
   - Hosting: Player Count, Levels, Code Randomization

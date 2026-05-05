@@ -6,6 +6,9 @@ featured = true
 tags = ["tools", "systems", "optimization", "heropack"]
 categories = ["JavaScript", "DSL", "API", "Minecraft"]
 main_image = "/images/projects/nameless.png"
+
+[params]
+  showInPostList = true  # Show in timeline lists alongside blog posts
 +++
 
 {{% text_center %}}

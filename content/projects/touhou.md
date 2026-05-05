@@ -6,6 +6,10 @@ featured = true
 tags = ["systems", "gameplay"]
 categories = ["C#", "Networking", "Unity"]
 main_image = "/images/projects/touhou.png"
+
+[params]
+  featured = true  # Show in featured section on homepage
+  showInPostList = true  # Show in timeline lists alongside blog posts
 +++
 
 {{% text_center %}}

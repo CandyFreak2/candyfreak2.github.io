@@ -6,9 +6,13 @@ featured = true
 tags = ["tools", "systems"]
 categories = ["Unreal", "Blueprints", "C++"]
 main_image = "/images/projects/purrsuit.png"
-+++
-{{% text_center %}}
 
+[params]
+  featured = true  # Show in featured section on homepage
+  showInPostList = true  # Show in timeline lists alongside blog posts
++++
+
+{{% text_center %}}
 ## [GitHub](https://github.com/Option-10-Capstone/Purrsuit) | [Itch.io](https://pibu.itch.io/purrsuit)
 {{% /text_center %}}  
 

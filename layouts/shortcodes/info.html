@@ -1,0 +1,8 @@
+<div class="info">
+  <div class="info_title">
+    {{ .Get "title" | default "Table Info" | .Page.RenderString }}
+</div>
+  <div class="info_data">
+    {{ .InnerDeindent | .Page.RenderString }}
+  </div>
+</div>

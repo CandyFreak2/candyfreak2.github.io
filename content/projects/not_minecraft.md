@@ -6,6 +6,10 @@ featured = false
 tags = ["tools", "systems", "optimization"]
 categories = ["Minecraft", "AI", "Procedural Generation"]
 main_image = "/images/projects/not_minecraft.png"
+
+[params]
+  featured = true  # Show in featured section on homepage
+  showInPostList = true  # Show in timeline lists alongside blog posts
 +++
 
 {{% text_center %}}
