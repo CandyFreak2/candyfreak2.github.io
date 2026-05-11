@@ -16,6 +16,8 @@ main_image = "/images/projects/nameless.png"
 ![CurseForge Downloads](https://img.shields.io/curseforge/dt/634206?style=for-the-badge&labelColor=5B5657&color=FF6F3D)
 {{% /text_center %}}  
 
+{{< curseforge_download 634206 >}}
+
 Platform: PC  
 Role: Product Owner & Lead Programmer  
 Game: Minecraft - 1.7.10  

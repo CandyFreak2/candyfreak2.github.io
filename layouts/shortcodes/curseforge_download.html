@@ -1,0 +1,11 @@
+{{ $projectID := .Get 0 }}
+{{ $uniqueID := printf "cf-%d" (now.UnixNano) }}
+
+<span id="{{ $uniqueID }}">Loadin...</span>
+
+<script>
+  (function() {
+    const target = document.getElementById("{{ $uniqueID }}");
+    GetDownloadCount(target, "{{ $projectID }}");
+  })();
+</script>
