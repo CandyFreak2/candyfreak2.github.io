@@ -1,11 +1,99 @@
 {{ $projectID := .Get 0 }}
-{{ $uniqueID := printf "cf-%d" (now.UnixNano) }}
-
-<span id="{{ $uniqueID }}">Loadin...</span>
+{{ $downloadID := .Get 1 }}
+{{ $devTimeID := .Get 2 }}
+{{ $lastUpdate := .Get 3 }}
 
 <script>
-  (function() {
-    const target = document.getElementById("{{ $uniqueID }}");
-    GetDownloadCount(target, "{{ $projectID }}");
+  (async () => {
+    const DOWNLOAD_ELEMENT = document.getElementById("{{ $downloadID }}");
+    const DEV_TIME_ELEMENT = document.getElementById("{{ $devTimeID }}");
+    const LAST_UPDATE_ELEMENT = document.getElementById("{{ $lastUpdate }}");
+
+    const URL = 'https://api.curseforge.com/v1/mods/{{$projectID}}';
+    const OPTIONS = {
+      method: 'GET',
+      headers: {
+        'Accept': 'application/json',
+        'x-api-key': '$2a$10$YcEA/GYviCVmL8V74We5L.zgD8zls2kJGsPSakvNS6r.3qTK7JgtG'
+      }
+    };
+
+    try {
+      const response = await fetch(URL, OPTIONS);
+
+      if (!response.ok) throw new Error("Network response was not ok");
+
+      const res = await response.json();
+      const downloads = res.data.downloadCount.toLocaleString();
+      DOWNLOAD_ELEMENT.innerText = downloads;
+
+      const now = new Date();
+      const developmentTime = new Date(res.data.dateCreated);
+      const lastUpdate = new Date(res.data.dateModified);
+
+      DEV_TIME_ELEMENT.innerText = GetDuration(developmentTime, now);
+      LAST_UPDATE_ELEMENT.innerText = GetDuration(lastUpdate, now);
+    }
+    catch (error) {
+      DOWNLOAD_ELEMENT.innerText = "Error loading downloads";
+      console.error("Fetch error:", error);
+    }
   })();
+
+  function GetDuration(startDate, endDate) {
+    let years = endDate.getFullYear() - startDate.getFullYear();
+    let months = endDate.getMonth() - startDate.getMonth();
+    let days = endDate.getDate() - startDate.getDate();
+    let hours = endDate.getHours() - startDate.getHours();
+    let min = endDate.getMinutes() - startDate.getMinutes();
+
+    if (min < 0) {
+      hours--;
+      min += 60;
+    }
+
+    if (hours < 0) {
+      days--;
+      hours += 24;
+    }
+
+    if (days < 0) {
+      months--;
+      const prevMonth = new Date(endDate.getFullYear(), endDate.getMonth(), 0);
+      days += prevMonth.getDate();
+    }
+
+    if (months < 0) {
+      years--;
+      months += 12;
+    }
+
+    const parts = [];
+    if (years > 0) {
+      parts.push(`${years} year${years > 1 ? 's' : ''}`);
+      return parts.join(', ');
+    }
+
+    if (months > 0) {
+      parts.push(`${months} month${months > 1 ? 's' : ''}`);
+      return parts.join(', ');
+    }
+
+    if (days > 0) {
+      parts.push(`${days} day${days > 1 ? 's' : ''}`);
+      return parts.join(', ');
+    }
+
+    if (hours > 0) {
+      parts.push(`${hours} hour${hours > 1 ? 's' : ''}`);
+      return parts.join(', ');
+    }
+
+    if (min > 0) {
+      parts.push(`${min} min${min > 1 ? 's' : ''}`);
+      return parts.join(', ');
+    }
+
+    return parts.join(", ") || "Just Updated!";
+  }
 </script>

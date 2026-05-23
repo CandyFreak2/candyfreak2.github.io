@@ -1,0 +1,8 @@
+{{ $url := .Get 0 }}
+{{ $frameborder := .Get 1 }}
+{{ $width := .Get 2 }}
+{{ $height := .Get 3 }}
+
+<div class="steam-container">
+    <iframe src="{{ $url }}" frameborder="{{ $frameborder }}" width="{{ $width }}" height="{{ $height }}"></iframe>
+</div>

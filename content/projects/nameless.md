@@ -2,26 +2,41 @@
 title = "Nameless Heroes"
 date = 2025-07-10
 summary = "Nameless Heroes is an addon for the Fisk Superhero Mod. As the lead programmer and designer, I was in charge of designing and creating functionality for all the suits as well as create systems and tools to improve hurdels during development and streamline art implementation."
-featured = true
 tags = ["tools", "systems", "optimization", "heropack"]
 categories = ["JavaScript", "DSL", "API", "Minecraft"]
 main_image = "/images/projects/nameless.png"
 
 [params]
+  featured = true
   showInPostList = true  # Show in timeline lists alongside blog posts
 +++
 
-{{% text_center %}}
-## [CurseForge Download](https://www.curseforge.com/minecraft/customization/nameless-heroes)
-![CurseForge Downloads](https://img.shields.io/curseforge/dt/634206?style=for-the-badge&labelColor=5B5657&color=FF6F3D)
-{{% /text_center %}}  
+<br>
+<br>
+<br>
 
-{{< curseforge_download 634206 >}}
+{{% info title="[CurseForge Download](https://www.curseforge.com/minecraft/customization/nameless-heroes)" %}}
+<div class="info_right">
+  <div class="item">Platform(s)</div>
+  <div class="item">Role</div>
+  <div class="item">Game</div>
+  <div class="item">Team Size</div>
+  <div class="item">Downloads</div>
+  <div class="item">Development Time</div>
+  <div class="item">Latest Update</div>
+</div>
+<div class="info_left">
+  <div class="item">PC</div>
+  <div class="item">Product Owner & Lead Programmer</div>
+  <div class="item">Minecraft 1.7.10</div>
+  <div class="item">4</div>
+  <div class="item" id="DOWNLOAD_COUNT">Loading...</div>
+  <div class="item" id="DEVELOPMENT_TIME">Loading...</div>
+  <div class="item" id="RECENT_UPDATE">Loading...</div>
+</div>
+{{% /info %}}
 
-Platform: PC  
-Role: Product Owner & Lead Programmer  
-Game: Minecraft - 1.7.10  
-Team Size: 4  
+{{< curseforge_download 634206 DOWNLOAD_COUNT DEVELOPMENT_TIME RECENT_UPDATE>}}
 
 ## Contributions  
 

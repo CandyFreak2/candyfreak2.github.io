@@ -9,8 +9,8 @@ theme = 'yassi'
     dir = ':cacheDir/images'
 
 [params]
-  CoverImage = "/images/portrait.png"
-  CoverImageWidth = 150
+  CoverImage = ""
+  CoverImageWidth = 0
   accentColor = "#721655"  
   accentColorDark = "#941D6E"
 

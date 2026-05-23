@@ -2,8 +2,8 @@
 title = "Not Minecraft"
 date = 2024-12-13
 summary = "Procedural Generation: Game AI Final Project"
-tags = ["tools", "optimization", "unity", "3d"]
-categories = ["Minecraft", "AI", "Procedural Generation"]
+tags = ["tools", "optimization", "3d"]
+categories = ["Minecraft", "AI", "Procedural Generation", "Unity"]
 main_image = "/images/projects/not_minecraft.png"
 +++
 

@@ -12,14 +12,26 @@ main_image = "/images/projects/touhou.png"
   showInPostList = true  # Show in timeline lists alongside blog posts
 +++
 
-{{% text_center %}}
-## [Itch.io](https://tristansa.itch.io/touhou99)
-{{% /text_center %}}  
+<br>
+<br>
+<br>
 
-Platform: PC  
-Role: Gameplay, UI/UX, Networking Programmer  
-Game Engine: Unity  
-Team Size: 12 weeks  
+{{% info title="[Itch.io](https://tristansa.itch.io/touhou99)" %}}
+<div class="info_right">
+  <div class="item">Platform(s)</div>
+  <div class="item">Role</div>
+  <div class="item">Game Engine</div>
+  <div class="item">Team Size</div>
+  <div class="item">Development Time</div>
+</div>
+<div class="info_left">
+  <div class="item">Windows (PC)</div>
+  <div class="item">Programmer (Networking & UI/UX)</div>
+  <div class="item">Unity</div>
+  <div class="item">12</div>
+  <div class="item">12 weeks</div>
+</div>
+{{% /info %}} 
 
 ## Contributions  
 

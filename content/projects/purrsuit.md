@@ -12,16 +12,28 @@ main_image = "/images/projects/purrsuit.png"
   showInPostList = true  # Show in timeline lists alongside blog posts
 +++
 
-{{% text_center %}}
-## [GitHub](https://github.com/Option-10-Capstone/Purrsuit) | [Itch.io](https://pibu.itch.io/purrsuit)
-{{% /text_center %}}  
+<br>
+<br>
+<br>
 
-Platform: PC  
-Role: Lead Systems & Tools Programmer  
-Game Engine: Unreal Engine 5.6  
-Team Size: 8  
-Designed Input Scheme: Xbox Controller  
-Development Time: 12 Weeks  
+{{% info title="[GitHub](https://github.com/Option-10-Capstone/Purrsuit) | [Itch.io](https://pibu.itch.io/purrsuit)" %}}
+<div class="info_right">
+  <div class="item">Platform</div>
+  <div class="item">Role</div>
+  <div class="item">Game Engine</div>
+  <div class="item">Team Size</div>
+  <div class="item">Development Time</div>
+  <div class="item">Supported Input(s)</div>
+</div>
+<div class="info_left">
+  <div class="item">Windows (PC)</div>
+  <div class="item">Lead Programmer (Systems & Tools)</div>
+  <div class="item">Unreal Engine 5.6</div>
+  <div class="item">8</div>
+  <div class="item">12 weeks</div>
+  <div class="item">Xbox Controller</div>
+</div>
+{{% /info %}} 
 
 ## Contributions  
 
