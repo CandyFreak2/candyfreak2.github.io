@@ -22,6 +22,7 @@ theme = 'yassi'
     linkedin = "https://www.linkedin.com/in/jerry-kaufman/"
     mail = "mailto:jerry@kaufmanma.org"
     itchio = "https://candyfreak2.itch.io/"
+    resume = "files/resume.pdf"
 
 [taxonomies]
   tag = "tags"

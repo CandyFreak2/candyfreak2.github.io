@@ -835,7 +835,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 25px;
   margin-top: 5px;
   padding-top: 5px;
 }
@@ -844,8 +844,8 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   color: var(--text-secondary);
   transition: all 0.3s ease;
@@ -859,14 +859,14 @@ h2 {
 }
 
 .social-link svg {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 
 /* Brand-specific hover colors */
 .social-link.github:hover {
-  background: #181717;
-  border-color: #181717;
+  background: #464343;
+  border-color: #4b4747;
 }
 
 .social-link.linkedin:hover {
@@ -882,6 +882,11 @@ h2 {
 .social-link.itchio:hover {
   background: #fa5c5c;
   border-color: #fa5c5c;
+}
+
+.social-link.resume:hover {
+  background: #941D6E;
+  border-color: #941D6E;
 }
 
 /* Resume Button */
@@ -1744,5 +1749,33 @@ figure.floatleft {
 
   .search-result-excerpt {
     font-size: 13px;
+  }
+}
+
+.vimeo-container {
+  display: flex;
+  align-items: flex-start; 
+  gap: 30px;
+  width: 100%;
+}
+
+.vimeo-container > div:first-child {
+  flex: 0 0 100%;
+}
+
+.vimeo-text {
+  margin-top: -5%;
+  flex: 1 0 80%;
+  white-space: normal;           
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .vimeo-container {
+    flex-direction: column;
+  }
+  .vimeo-container > div:first-child {
+    flex: 0 0 100%;
+    width: 100%;
   }
 }
